@@ -1,4 +1,7 @@
-export type RandomFoxProps = {
-    id: string
-    imageUrl: string
+
+export type LazyImageProps = {
+    src: string;
+    onLazyLoad?: (igmNode: HTMLImageElement) => void
 }
+
+

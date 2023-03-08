@@ -9,7 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      title: ['"Roboto Mono"', 'monospace'],
+      splineSans: ['"Spline Sans Mono"', 'monospace'],
+    }
   },
   plugins: [],
+  darkMode: 'class'
 }
